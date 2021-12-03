@@ -3,3 +3,5 @@ this is main branch.
 ++extra technologies
 
 this is B branch.
+
+++merged into B branch.
