@@ -1,0 +1,3 @@
+1. github는 git을 이용한 서비스를 제공하는 회사(git provider) 중 하나이다. 다른 것으로는 bigbucket, gitlab등등이 있다.
+2. git은 콘솔안에 존재하는데 console이 불편한 사람들을 위해 콘솔의 명령을 비주얼화 해서 어플 형식으로 만든 것이 github desktop이다.
+3. Repository는 폴더 같은 건데 git이 파일들을 보고 있는 공간이다.
