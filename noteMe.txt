@@ -7,10 +7,15 @@ git add (. > .은 현재 폴더를 의미 하므로 현재 폴더 안의 모든 
 git commit (-m ""> message옵션 추가, -help > 기능 확인) > commit하기
 git push (origin main/master) > 저장소에 push
 git log로 원하는 커밋의 별명을 복사 후 checkout으로 head를 옮겨서 볼 수 있음. 
-git reset ( > mixed reset 커밋을 stage area로 옮김 즉 커밋은 지우고 파일은 납둠,
+git reset ( > mixed reset 커밋을 unstage area로 옮김 즉 커밋은 지우고 파일은 납둠,
      --hard > hard reset 삭제,
-     --soft > soft reset) (HEAD^ > head에서 한 커밋 이전으로 리셋, HEAD^^ > head에서 두 커밋 이전으로 리셋, ...)
+     --soft > soft reset unstaged area가 아닌 stage area에 옮김) (HEAD^ > head에서 한 커밋 이전으로 리셋, HEAD^^ > head에서 두 커밋 이전으로 리셋, ...)
 git push origin (main/master) --force > 삭제 후 강제 업데이트
+git checkout으로 특성 지점으로 간 후 git swtich -c (branch name) 하면 그 지점에서 branch생성 가능
+git switch (지점 별명) -c (branch name) 으로 두 작업을 동시에 가능
+branch를 github에 올리고 싶다면 git push origin (branch name)
+git branch -d (branch name) > branch삭제
+git commit --amend (--no-edit > commit message수정 x, -m > commit message수정)> 가장 최근의 commit을 수정함 (변경사항 add후에 명령)
 -는 명령어에 옵션 추가하는 거구나
 
 M for modified
