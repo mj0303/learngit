@@ -5,6 +5,7 @@
 git log > commit기록 확인
 git add (. > .은 현재 폴더를 의미 하므로 현재 폴더 안의 모든 파일을 의미)> 변경사항 stage area로 추가
 git commit (-m ""> message옵션 추가, -help > 기능 확인) > commit하기
+git push (origin main/master) > 저장소에 push
 -는 명령어에 옵션 추가하는 거구나
 
 M for modified
