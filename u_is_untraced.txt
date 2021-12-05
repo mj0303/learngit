@@ -1,0 +1,5 @@
+M for modified
+U for untracked by git
+A for added
+맨위 Message for commit title
+Changes에 있는 파일들은 working area에 있는 파일들이고 +버튼을 눌러서 staged change로 올리고 커밋할 수 있다.
