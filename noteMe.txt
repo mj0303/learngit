@@ -1,3 +1,14 @@
 1. github는 git을 이용한 서비스를 제공하는 회사(git provider) 중 하나이다. 다른 것으로는 bigbucket, gitlab등등이 있다.
 2. git은 콘솔안에 존재하는데 console이 불편한 사람들을 위해 콘솔의 명령을 비주얼화 해서 어플 형식으로 만든 것이 github desktop이다.
 3. Repository는 폴더 같은 건데 git이 파일들을 보고 있는 공간이다.
+
+git log > commit기록 확인
+git add (. > .은 현재 폴더를 의미 하므로 현재 폴더 안의 모든 파일을 의미)> 변경사항 stage area로 추가
+git commit (-m ""> message옵션 추가, -help > 기능 확인) > commit하기
+-는 명령어에 옵션 추가하는 거구나
+
+M for modified
+U for untracked by git
+A for added
+맨위 Message for commit title
+Changes에 있는 파일들은 working area에 있는 파일들이고 +버튼을 눌러서 staged change로 올리고 커밋할 수 있다.
