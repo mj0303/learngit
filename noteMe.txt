@@ -3,6 +3,7 @@
 3. Repository는 폴더 같은 건데 git이 파일들을 보고 있는 공간이다.
 
 ## local folder를 git repository에 연결 하는 법
+https://kbroman.org/github_tutorial/pages/init.html
 1. git repository생성 후 URL복사
 2. local folder생성 후 terminal에 git init입력
 3. git remote add remoteName(처음은 origin추천) repositoryURL
