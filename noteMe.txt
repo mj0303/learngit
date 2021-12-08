@@ -37,3 +37,8 @@ A for added
 맨위 Message for commit title
 Changes에 있는 파일들은 working area에 있는 파일들이고 +버튼을 눌러서 staged change로 올리고 커밋할 수 있다.
 이전 commit의 내용들이 다 합쳐진 것을 head라 한다. 즉 내가 보고 있는 곳을 말함. 이 head를 수정해서 과거로 갈 수 있다.
+
+terminal 명령어:
+> mkdir = 폴더 만들기
+> touch (name) = 파일 만들기
+> nano (name) = 파일 수정하기
